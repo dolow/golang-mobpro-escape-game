@@ -4,4 +4,4 @@ fmt:
 compile:
 	go build main.go
 run:
-	./main
+	sudo ./main
