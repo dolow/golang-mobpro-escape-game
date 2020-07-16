@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        hello world!!<br />
+        {{.Body}}
+        {{ range $v := .Options }}
+        <p>{{$v}}</p>
+        {{end}}
+        <ul>
+        {{ range $v := .Options }}
+        <li>
+            <input />
+            <input type='submit'>送信</input>
+            <a href="{{$v}}">
+                {{$v}}
+            </a>
+        </li>
+        {{end}}
+        </ul>
+    </body>
+</html>

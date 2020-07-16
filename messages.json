@@ -1,8 +1,8 @@
 [
-    {"path": "/hello",  "body": "world"},
-    {"path": "/foo",    "body": "var" },
-    {"path": "/hello2", "body": "world"},
-    {"path": "/foo2",   "body": "var" },
-    {"path": "/hello3", "body": "world"},
-    {"path": "/foo3",   "body": "var" }
+    {"path": "/hello",  "body": "world 分かれ道があるよ、どっちにいく？", "options": ["/foo","/hello2","/foo2"]},
+    {"path": "/foo",    "body": "var",  "options": [] },
+    {"path": "/hello2", "body": "world",  "options": []},
+    {"path": "/foo2",   "body": "var",  "options": [] },
+    {"path": "/hello3", "body": "world",  "options": []},
+    {"path": "/foo3",   "body": "var",  "options": [] }
 ]
